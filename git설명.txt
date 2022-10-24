@@ -12,3 +12,20 @@ git add *.txt => txt 로끝나는 파일모두올림
 git commit => 중간단계를 모두기록
 git commit -m "메세지작성" => 메모장안다루고 곳바로가능
 git commit --amend  =>  메세지 되돌리기
+
+git log => log 봄
+
+git diff => 수정전과 수정후를 비교
+git diff --cached => 이미 add 한 파일도 비교가능
+
+git commit -a "내용" => 커밋과 애드를 동시에 가능
+
+git remote => 연결된서버목록
+
+git remote add <별명> <서버주소> => 서버연결하는법
+
+git push <업로드할 서버주소> <올릴 데이터가 있는 로컬 저장소이름>
+
+git push origin master
+
+
