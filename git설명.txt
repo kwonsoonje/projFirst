@@ -1,0 +1,10 @@
+git config  =>  환경설정
+git config --global user.name "이름"  => 유저설정
+git config --global user.email "이메일주소" => 이메일설정
+git config --global core.editor "'C:/Program Files/notepad++.exe' -multinst -nosession"
+git config --global core.editor "code --wait"
+git config --global core.editor vim
+
+git init => 폴더내에서 프로잭트 지정 한번만실행맨첨
+git status => 현재상태
+git add "파일이름" => 파일추가
