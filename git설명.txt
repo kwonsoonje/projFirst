@@ -7,4 +7,8 @@ git config --global core.editor vim
 
 git init => 폴더내에서 프로잭트 지정 한번만실행맨첨
 git status => 현재상태
-git add "파일이름" => 파일추가
+git add "파일이름" => 파일추가 중간단계
+git add *.txt => txt 로끝나는 파일모두올림
+git commit => 중간단계를 모두기록
+git commit -m "메세지작성" => 메모장안다루고 곳바로가능
+git commit --amend  =>  메세지 되돌리기
